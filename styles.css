@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .success {
+    background-color: #4CAF50;
+  }
+  
+  .success:hover {
+    background-color: #43a047;
+  }
+  
+  .fail {
+    background-color: #F44336;
+  }
+  
+  .fail:hover {
+    background-color: #e53935;
+  }
+  
+  .warning {
+    background-color: #FF9800;
+  }
+  
+  .warning:hover {
+    background-color: #fb8c00;
+  }
+  
